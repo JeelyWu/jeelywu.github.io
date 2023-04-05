@@ -1,7 +1,6 @@
 ---
 title: Use Docker Compose Healthy Check To Run Command Periodically in a Container
 date: 2023-03-25T23:27:32+08:00
-draft: true
 ---
 
 In my work, I have a domain that use the [certbot](https://hub.docker.com/r/certbot/certbot) container to renew the ssl certificate from letsencrypt.
@@ -19,7 +18,6 @@ After to reload nginx manually, the problem was solved. But I don't want to do i
 After searching on the Internet, I found it is not easy to do that when the certbot and nginx is running in different containers. 
 
 Yes I know, certbot provide a way to run a command after renew the certificate, but not work in my case.
-
 Here is some options can work in my case:
 - Use the `inotifywait` command in host machine to watch the certificate file change, then login into the nginx container to reload.
 - Use the `inotifywait` command in nginx container to watch the certificate file change, then run the nginx reload command in nginx container.
