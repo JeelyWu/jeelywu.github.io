@@ -15,4 +15,4 @@ Many times, I often forget that I have a blog :) Obviously, I am not a professio
 
 As a developer from China, I want to improve my English skill. I think it is a proper way to write blog in English. (Maybe somethings in Chinese too :)
 
-So, I have started a new blog on GitHub. And I hope to write more in the future.
+So, I have started a new blog on GitHub. Maybe or maybe not, I will migrate some old post to here.  Anyway I hope to write more in the future.
